@@ -10,7 +10,7 @@ int main() {
     letra = tolower(letra);
 
     if (letra >= 'a' && letra <= 'z') {
-        if (letra=='a'||letra=='e'||letra=='i'||letra=='o'||letra=='u')
+        if (letra=='A'||letra=='E'||letra=='I'||letra=='O'||letra=='U')
             printf("Vogal\n");
         else
             printf("Consoante\n");

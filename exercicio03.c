@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 int main() {
     char letra;
@@ -10,7 +11,7 @@ int main() {
     letra = tolower(letra);
 
     if (letra >= 'a' && letra <= 'z') {
-        if (letra=='A'||letra=='E'||letra=='I'||letra=='O'||letra=='U'||letra=='a'||letra=='e'||letra=='i'||letra=='o'||letra=='u')
+        if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' || letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U')
             printf("Vogal\n");
         else
             printf("Consoante\n");
